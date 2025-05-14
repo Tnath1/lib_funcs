@@ -56,6 +56,7 @@ export const Modal_step = () => {
   );
 };
 
+
 type ModalProps = {
   onNext: () => void;
   onBack: () => void;
@@ -88,6 +89,7 @@ const LoginModal = ({ onNext, onBack, onClose }: ModalProps) => (
     </div>
   </div>
 );
+
 
 const RegisterModal = ({ onNext, onBack, onClose }: ModalProps) => (
   <div className="text-center space-y-4">
